@@ -7,7 +7,7 @@ A curated collection of research on visual object counting, including papers, da
 
 > **Collection policy.** For work published in 2022 or earlier, we retain seminal and broadly recognized papers. From 2023 onward, we aim for high recall across major conferences, reputable journals, and verifiable arXiv papers, provided that object counting is a central contribution.
 
-Metadata last verified: **2026-08-10**.
+Metadata last verified: **2026-08-31**.
 
 ## Contents
 
@@ -379,14 +379,25 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Class-specific Counting
 
-*37 papers.*
+*45 papers.*
+
+#### 2027
+
+- **[PRoFENCH]** PRoFENCH: A systematic study of multimodal fusion and generalization in WiFi–Vision wireless sensing for people counting. (**Ad Hoc Networks 2027**) [[Paper](https://doi.org/10.1016/j.adhoc.2026.104388)]
+- **[Shang et al.]** Untangling context: A Gaussian Splatting-mediated Bayesian framework for crowd counting. (**Pattern Recognition 2027**) [[Paper](https://doi.org/10.1016/j.patcog.2026.114725)]
 
 #### 2026
 
 - **[Shu et al.]** Adapting Lightweight Image-Based Counting Models for Video Crowd Counting. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Shu_Adapting_Lightweight_Image-based_Counting_Models_for_Video_Crowd_Counting_CVPR_2026_paper.html)]
+- **[Tripathi et al.]** Counting of rice panicles using drone mounted RGB sensor and deep learning approaches. (**Journal of Crop Science and Biotechnology 2026**) [[Paper](https://doi.org/10.1007/s12892-026-00377-9)]
 - **[DG-Det]** Depth-Guided Video Object Counting in Crowded Scenes. (**ACM MM 2026**) [[Paper](https://arxiv.org/abs/2608.06236)] [[Code](https://github.com/streamer-AP/DG-Net)]
+- **[StructGuide-YOLO]** Edge-guided structural conditioning for Gong-Che symbol localization and page-level counting in aged documents. (**Measurement Science and Technology 2026**) [[Paper](https://doi.org/10.1088/1361-6501/ae9f7c)]
+- **[KBTrack]** KBTrack: cloud-enabled temporal identity inference for accurate counting in ornamental plant inventory management. (**Computers and Electronics in Agriculture 2026**) [[Paper](https://doi.org/10.1016/j.compag.2026.112307)]
+- **[Zhou & Zhang]** Label-Efficient Remote Sensing Object Counting via Cascaded Foundation Models and Global-Local Ranking. (**IEEE GRSL 2026**) [[Paper](https://doi.org/10.1109/LGRS.2026.3726140)]
+- **[Chen et al. (2026)]** One-Shot Crowd Counting With Density Guidance For Scene Adaptation. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2602.07955)]
 - **[TPC-268]** Plant Taxonomy Meets Plant Counting: A Fine-Grained Taxonomic Dataset for Counting Hundreds of Plant Species. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Xu_Plant_Taxonomy_Meets_Plant_Counting_A_Fine-Grained_Taxonomic_Dataset_for_CVPR_2026_paper.html)] [[Code](https://github.com/tiny-smart/TPC-268)]
 - **[RS-OVC]** RS-OVC: Open-Vocabulary Counting for Remote-Sensing Data. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2604.08704)]
+- **[SCRSNet]** SCRSNet: An Efficient Crowd Counting via Lightweight Spatial-Channel Reconstructive and Scale-Aware Network. (**Expert Systems 2026**) [[Paper](https://doi.org/10.1111/exsy.70409)]
 - **[GROC]** See What We Cannot See: A Geo-Guided Reasoning Benchmark for Object Counting under Adverse Earth Observation Conditions. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_See_What_We_Cannot_See_A_Geo-guided_Reasoning_Benchmark_for_CVPR_2026_paper.html)]
 
 #### 2025
@@ -462,13 +473,14 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Video Object Counting
 
-*9 papers.*
+*10 papers.*
 
 #### 2026
 
 - **[Shu et al.]** Adapting Lightweight Image-Based Counting Models for Video Crowd Counting. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Shu_Adapting_Lightweight_Image-based_Counting_Models_for_Video_Crowd_Counting_CVPR_2026_paper.html)]
 - **[DG-Det]** Depth-Guided Video Object Counting in Crowded Scenes. (**ACM MM 2026**) [[Paper](https://arxiv.org/abs/2608.06236)] [[Code](https://github.com/streamer-AP/DG-Net)]
 - **[EC-Bench]** EC-Bench: Enumeration and Counting Benchmark for Ultra-Long Videos. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2603.29943)]
+- **[KBTrack]** KBTrack: cloud-enabled temporal identity inference for accurate counting in ornamental plant inventory management. (**Computers and Electronics in Agriculture 2026**) [[Paper](https://doi.org/10.1016/j.compag.2026.112307)]
 - **[CountVid]** Open-World Object Counting in Videos. (**AAAI 2026**) [[Paper](https://arxiv.org/abs/2506.15368)] [[Code](https://github.com/niki-amini-naieni/CountVid)]
 - **[SVCBench]** SVCBench: A Streaming Video Counting Benchmark for Spatial-Temporal State Maintenance. (**ECCV 2026**) [[Paper](https://arxiv.org/abs/2603.12703)] [[Code](https://buaa-colalab.github.io/SVCBench/)]
 
@@ -660,6 +672,7 @@ This is the official static **CLOC-v1.1 corrected-test** snapshot. It must not b
 ### Surveys
 
 - [A Survey on Class-Agnostic Counting: Advancements from Reference-Based to Open-World Text-Guided Approaches](https://arxiv.org/abs/2501.19184) — Jiang et al., 2026.
+- [Object Counting Across Modalities: Taxonomies, Benchmarks, Applications, and Open Challenges](https://arxiv.org/abs/2608.23845) — Owusu and Sheshappanavar, 2026.
 - [Deep Learning in Crowd Counting: A Survey](https://doi.org/10.1049/cit2.12241) — Sindagi et al., 2024.
 - [Revisiting Crowd Counting: State-of-the-art, Trends, and Future Perspectives](https://arxiv.org/abs/2209.07271) — Khan et al., 2023.
 - [A Survey on Deep Learning-Based Single Image Crowd Counting: Network Design, Loss Function and Supervisory Signal](https://doi.org/10.1016/j.neucom.2022.08.037) — Fan et al., 2022.
