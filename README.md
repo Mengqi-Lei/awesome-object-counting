@@ -7,7 +7,7 @@ A curated collection of research on visual object counting, including papers, da
 
 > **Collection policy.** For work published in 2022 or earlier, we retain seminal and broadly recognized papers. From 2023 onward, we aim for high recall across major conferences, reputable journals, and verifiable arXiv papers, provided that object counting is a central contribution.
 
-Metadata last verified: **2026-08-31**.
+Metadata last verified: **2026-09-07**.
 
 ## Contents
 
@@ -140,7 +140,11 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Open-vocabulary Counting
 
-*36 papers.*
+*37 papers.*
+
+#### 2027
+
+- **[CountLEG]** CountLEG: Compositional referring expression counting framework via Latent Expression Guidance. (**Pattern Recognition 2027**) [[Paper](https://doi.org/10.1016/j.patcog.2026.114691)] [[Code](https://github.com/psbetter/CountLEG)]
 
 #### 2026
 
@@ -254,7 +258,11 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### MLLM-based Counting
 
-*18 papers.*
+*19 papers.*
+
+#### 2027
+
+- **[CountLEG]** CountLEG: Compositional referring expression counting framework via Latent Expression Guidance. (**Pattern Recognition 2027**) [[Paper](https://doi.org/10.1016/j.patcog.2026.114691)] [[Code](https://github.com/psbetter/CountLEG)]
 
 #### 2026
 
@@ -288,7 +296,11 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Class-agnostic Counting
 
-*66 papers.*
+*67 papers.*
+
+#### 2027
+
+- **[CountLEG]** CountLEG: Compositional referring expression counting framework via Latent Expression Guidance. (**Pattern Recognition 2027**) [[Paper](https://doi.org/10.1016/j.patcog.2026.114691)] [[Code](https://github.com/psbetter/CountLEG)]
 
 #### 2026
 
@@ -379,7 +391,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Class-specific Counting
 
-*45 papers.*
+*56 papers.*
 
 #### 2027
 
@@ -388,15 +400,26 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 #### 2026
 
+- **[PAAP]** A multi-task visual framework: Geometry-guided UAV crowd counting and localization for media practice. (**Displays 2026**) [[Paper](https://doi.org/10.1016/j.displa.2026.103493)]
+- **[ACENet]** ACENet: Contextual graph reasoning for semi-supervised crowd counting. (**Expert Systems with Applications 2026**) [[Paper](https://doi.org/10.1016/j.eswa.2026.132685)]
 - **[Shu et al.]** Adapting Lightweight Image-Based Counting Models for Video Crowd Counting. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Shu_Adapting_Lightweight_Image-based_Counting_Models_for_Video_Crowd_Counting_CVPR_2026_paper.html)]
+- **[SAM3-3DFruit]** Adapting SAM3 for 3D fruit counting with cross-view contrastive learning and Hough voting. (**Computers and Electronics in Agriculture 2026**) [[Paper](https://doi.org/10.1016/j.compag.2026.112325)]
+- **[Fotia et al.]** Boosting high density crowd counting via density aware Semi-Supervised Learning. (**Image and Vision Computing 2026**) [[Paper](https://doi.org/10.1016/j.imavis.2026.106184)]
+- **[MaxBoxCount]** Counting Animals in Camera-Traps Image Sequences without Count Labels: Winning Solution to the iWildCam 2021 Challenge. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2609.03233)] [[Code](https://github.com/alcunha/iwildcam2021ufam)]
 - **[Tripathi et al.]** Counting of rice panicles using drone mounted RGB sensor and deep learning approaches. (**Journal of Crop Science and Biotechnology 2026**) [[Paper](https://doi.org/10.1007/s12892-026-00377-9)]
+- **[DAQ-YOLO]** DAQ-YOLO: A High Precision Counting Model for Maize Seedlings in Dense Scenes. (**Frontiers in Plant Science 2026**) [[Paper](https://doi.org/10.3389/fpls.2026.1879331)]
+- **[DCA-MoE]** DCA-MoE: Spatially Adaptive Cross-Layer Fusion and Density-Routed Experts for Crowd Counting. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2608.15213)]
 - **[DG-Det]** Depth-Guided Video Object Counting in Crowded Scenes. (**ACM MM 2026**) [[Paper](https://arxiv.org/abs/2608.06236)] [[Code](https://github.com/streamer-AP/DG-Net)]
 - **[StructGuide-YOLO]** Edge-guided structural conditioning for Gong-Che symbol localization and page-level counting in aged documents. (**Measurement Science and Technology 2026**) [[Paper](https://doi.org/10.1088/1361-6501/ae9f7c)]
+- **[Pan et al.]** High-Throughput Panicle Counting of Wild Rice Accessions for Germplasm Evaluation: An AI-Driven UAV Phenotyping Framework. (**Smart Agricultural Technology 2026**) [[Paper](https://doi.org/10.1016/j.atech.2026.102528)]
 - **[KBTrack]** KBTrack: cloud-enabled temporal identity inference for accurate counting in ornamental plant inventory management. (**Computers and Electronics in Agriculture 2026**) [[Paper](https://doi.org/10.1016/j.compag.2026.112307)]
 - **[Zhou & Zhang]** Label-Efficient Remote Sensing Object Counting via Cascaded Foundation Models and Global-Local Ranking. (**IEEE GRSL 2026**) [[Paper](https://doi.org/10.1109/LGRS.2026.3726140)]
+- **[MSPF]** Multi-scale pyramid fusion with overlap density attention module for crowd counting. (**Neural Networks 2026**) [[Paper](https://doi.org/10.1016/j.neunet.2026.108983)] [[Code](https://github.com/Avinash-Rohra/MSPF)]
+- **[Clarke et al.]** Odontocete strandings from space: Accurately counting individuals with very high-resolution optical and synthetic aperture radar satellite imagery. (**Ecological Informatics 2026**) [[Paper](https://doi.org/10.1016/j.ecoinf.2026.103924)]
 - **[Chen et al. (2026)]** One-Shot Crowd Counting With Density Guidance For Scene Adaptation. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2602.07955)]
 - **[TPC-268]** Plant Taxonomy Meets Plant Counting: A Fine-Grained Taxonomic Dataset for Counting Hundreds of Plant Species. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Xu_Plant_Taxonomy_Meets_Plant_Counting_A_Fine-Grained_Taxonomic_Dataset_for_CVPR_2026_paper.html)] [[Code](https://github.com/tiny-smart/TPC-268)]
 - **[RS-OVC]** RS-OVC: Open-Vocabulary Counting for Remote-Sensing Data. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2604.08704)]
+- **[SAGRD]** Scale-Aware Gated Routing Distillation for Lightweight Remote Sensing Object Counting. (**Remote Sensing 2026**) [[Paper](https://doi.org/10.3390/rs18172939)]
 - **[SCRSNet]** SCRSNet: An Efficient Crowd Counting via Lightweight Spatial-Channel Reconstructive and Scale-Aware Network. (**Expert Systems 2026**) [[Paper](https://doi.org/10.1111/exsy.70409)]
 - **[GROC]** See What We Cannot See: A Geo-Guided Reasoning Benchmark for Object Counting under Adverse Earth Observation Conditions. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_See_What_We_Cannot_See_A_Geo-guided_Reasoning_Benchmark_for_CVPR_2026_paper.html)]
 
@@ -473,11 +496,12 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Video Object Counting
 
-*10 papers.*
+*11 papers.*
 
 #### 2026
 
 - **[Shu et al.]** Adapting Lightweight Image-Based Counting Models for Video Crowd Counting. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Shu_Adapting_Lightweight_Image-based_Counting_Models_for_Video_Crowd_Counting_CVPR_2026_paper.html)]
+- **[MaxBoxCount]** Counting Animals in Camera-Traps Image Sequences without Count Labels: Winning Solution to the iWildCam 2021 Challenge. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2609.03233)] [[Code](https://github.com/alcunha/iwildcam2021ufam)]
 - **[DG-Det]** Depth-Guided Video Object Counting in Crowded Scenes. (**ACM MM 2026**) [[Paper](https://arxiv.org/abs/2608.06236)] [[Code](https://github.com/streamer-AP/DG-Net)]
 - **[EC-Bench]** EC-Bench: Enumeration and Counting Benchmark for Ultra-Long Videos. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2603.29943)]
 - **[KBTrack]** KBTrack: cloud-enabled temporal identity inference for accurate counting in ornamental plant inventory management. (**Computers and Electronics in Agriculture 2026**) [[Paper](https://doi.org/10.1016/j.compag.2026.112307)]
