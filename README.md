@@ -7,7 +7,7 @@ A curated collection of research on visual object counting, including papers, da
 
 > **Collection policy.** For work published in 2022 or earlier, we retain seminal and broadly recognized papers. From 2023 onward, we aim for high recall across major conferences, reputable journals, and verifiable arXiv papers, provided that object counting is a central contribution.
 
-Metadata last verified: **2026-09-07**.
+Metadata last verified: **2026-09-14**.
 
 ## Contents
 
@@ -140,7 +140,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Open-vocabulary Counting
 
-*38 papers.*
+*39 papers.*
 
 #### 2027
 
@@ -155,6 +155,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 - **[CountGD++]** CountGD++: Generalized Prompting for Open-World Counting. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Amini-Naieni_CountGD_Generalized_Prompting_for_Open-World_Counting_CVPR_2026_paper.html)] [[Code](https://github.com/niki-amini-naieni/CountGDPlusPlus)]
 - **[GICount / BunchCount]** Counting Beyond Instances: A Benchmark for Group-Individual Object Counting. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2609.04716)]
 - **[PrACo++]** Does It Really Count? Assessing Semantic Grounding in Text-Guided Class-Agnostic Counting. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2605.02752)]
+- **[DualCount]** DualCount: Structurally Consistent Density and Point Modeling for Zero-Shot Object Counting. (**ECCV 2026**) [[Paper](https://doi.org/10.1007/978-3-032-37335-9_6)]
 - **[MambaCount]** MambaCount: Efficient Text-Guided Open-Vocabulary Object Counting with Spatial Sparse State Space Duality Block. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2606.17650)]
 - **[CountVid]** Open-World Object Counting in Videos. (**AAAI 2026**) [[Paper](https://arxiv.org/abs/2506.15368)] [[Code](https://github.com/niki-amini-naieni/CountVid)]
 - **[RS-OVC]** RS-OVC: Open-Vocabulary Counting for Remote-Sensing Data. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2604.08704)]
@@ -197,10 +198,11 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Exemplar-based Counting
 
-*38 papers.*
+*39 papers.*
 
 #### 2026
 
+- **[CoDi]** CoDi – an exemplar-conditioned diffusion model for low-shot counting. (**IEEE TIP 2026**) [[Paper](https://arxiv.org/abs/2512.20153)] [[Code](https://github.com/gsustar/CoDi)]
 - **[HieraCount]** Count Anything at Any Granularity. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2605.10887)] [[Code](https://verg-avesta.github.io/KubriCount/)]
 - **[CountGD++]** CountGD++: Generalized Prompting for Open-World Counting. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Amini-Naieni_CountGD_Generalized_Prompting_for_Open-World_Counting_CVPR_2026_paper.html)] [[Code](https://github.com/niki-amini-naieni/CountGDPlusPlus)]
 - **[GICount / BunchCount]** Counting Beyond Instances: A Benchmark for Group-Individual Object Counting. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2609.04716)]
@@ -260,7 +262,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### MLLM-based Counting
 
-*19 papers.*
+*20 papers.*
 
 #### 2027
 
@@ -272,6 +274,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 - **[CountGD++]** CountGD++: Generalized Prompting for Open-World Counting. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Amini-Naieni_CountGD_Generalized_Prompting_for_Open-World_Counting_CVPR_2026_paper.html)] [[Code](https://github.com/niki-amini-naieni/CountGDPlusPlus)]
 - **[EC-Bench]** EC-Bench: Enumeration and Counting Benchmark for Ultra-Long Videos. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2603.29943)]
 - **[HoloCount]** HoloCount: A Holistic Visual Counting Benchmark for MLLMs. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2607.06420)] [[Code](https://github.com/MM-MVR/HoloCount)]
+- **[Che et al.]** Learning from Primitive: Probing Visual Reasoning of LVLMs via Counting. (**ECCV 2026**) [[Paper](https://doi.org/10.1007/978-3-032-37023-5_37)]
 - **[SVCBench]** SVCBench: A Streaming Video Counting Benchmark for Spatial-Temporal State Maintenance. (**ECCV 2026**) [[Paper](https://arxiv.org/abs/2603.12703)] [[Code](https://buaa-colalab.github.io/SVCBench/)]
 - **[CountScope]** Understanding Counting Mechanisms in Large Language and Vision-Language Models. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Hasani_Understanding_Counting_Mechanisms_in_Large_Language_and_Vision-Language_Models_CVPR_2026_paper.html)] [[Code](https://github.com/sharif-ml-lab/counting-mechanisms)]
 - **[UNICBench]** UNICBench: UNIfied Counting Benchmark for MLLM. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Rong_UNICBench_UNIfied_Counting_Benchmark_for_MLLM_CVPR_2026_paper.html)]
@@ -298,7 +301,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Class-agnostic Counting
 
-*68 papers.*
+*70 papers.*
 
 #### 2027
 
@@ -309,12 +312,14 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 - **[AdaCount]** AdaCount: Training-Free Similarity-Guided Spatial and Feature Adaptation for Zero-Shot Object Counting. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2607.02139)]
 - **[QICA]** Boosting Quantitive and Spatial Awareness for Zero-Shot Object Counting. (**CVPR 2026**) [[Paper](https://arxiv.org/abs/2603.16129)]
 - **[WS-COC]** Bootstrapping MLLM for Weakly-Supervised Class-Agnostic Object Counting. (**ICLR 2026**) [[Paper](https://arxiv.org/abs/2602.12774)] [[Code](https://github.com/viscom-tongji/WS-COC)]
+- **[CoDi]** CoDi – an exemplar-conditioned diffusion model for low-shot counting. (**IEEE TIP 2026**) [[Paper](https://arxiv.org/abs/2512.20153)] [[Code](https://github.com/gsustar/CoDi)]
 - **[Count Anything]** Count Anything. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2605.30846)] [[Code](https://github.com/Mengqi-Lei/count-anything)]
 - **[HieraCount]** Count Anything at Any Granularity. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2605.10887)] [[Code](https://verg-avesta.github.io/KubriCount/)]
 - **[CountGD++]** CountGD++: Generalized Prompting for Open-World Counting. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Amini-Naieni_CountGD_Generalized_Prompting_for_Open-World_Counting_CVPR_2026_paper.html)] [[Code](https://github.com/niki-amini-naieni/CountGDPlusPlus)]
 - **[GICount / BunchCount]** Counting Beyond Instances: A Benchmark for Group-Individual Object Counting. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2609.04716)]
 - **[CountingDINO]** CountingDINO: A Training-Free Pipeline for Class-Agnostic Counting using Unsupervised Backbones. (**WACV 2026**) [[Paper](https://openaccess.thecvf.com/content/WACV2026/html/Pacini_CountingDINO_A_Training-free_Pipeline_for_Class-Agnostic_Counting_using_Unsupervised_Backbones_WACV_2026_paper.html)]
 - **[PrACo++]** Does It Really Count? Assessing Semantic Grounding in Text-Guided Class-Agnostic Counting. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2605.02752)]
+- **[DualCount]** DualCount: Structurally Consistent Density and Point Modeling for Zero-Shot Object Counting. (**ECCV 2026**) [[Paper](https://doi.org/10.1007/978-3-032-37335-9_6)]
 - **[GeCo2]** Generalized-Scale Object Counting with Gradual Query Aggregation. (**AAAI 2026**) [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37780)] [[Code](https://github.com/jerpelhan/GECO2/)]
 - **[MambaCount]** MambaCount: Efficient Text-Guided Open-Vocabulary Object Counting with Spatial Sparse State Space Duality Block. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2606.17650)]
 - **[OCCAM]** OCCAM: Class-Agnostic Training-Free Prior-Free and Multi-Class Object Counting. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2601.13871)] [[Code](https://mikespanak.github.io/OCCAM_counter/)]
@@ -394,7 +399,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Class-specific Counting
 
-*58 papers.*
+*61 papers.*
 
 #### 2027
 
@@ -410,6 +415,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 - **[Fotia et al.]** Boosting high density crowd counting via density aware Semi-Supervised Learning. (**Image and Vision Computing 2026**) [[Paper](https://doi.org/10.1016/j.imavis.2026.106184)]
 - **[MaxBoxCount]** Counting Animals in Camera-Traps Image Sequences without Count Labels: Winning Solution to the iWildCam 2021 Challenge. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2609.03233)] [[Code](https://github.com/alcunha/iwildcam2021ufam)]
 - **[Tripathi et al.]** Counting of rice panicles using drone mounted RGB sensor and deep learning approaches. (**Journal of Crop Science and Biotechnology 2026**) [[Paper](https://doi.org/10.1007/s12892-026-00377-9)]
+- **[TreeMatch]** Counting Trees from Satellite Imagery with Noisy Supervision. (**ECCV 2026**) [[Paper](https://doi.org/10.1007/978-3-032-37432-5_17)] [[Code](https://github.com/dgominski/treematch)]
 - **[DAQ-YOLO]** DAQ-YOLO: A High Precision Counting Model for Maize Seedlings in Dense Scenes. (**Frontiers in Plant Science 2026**) [[Paper](https://doi.org/10.3389/fpls.2026.1879331)]
 - **[DCA-MoE]** DCA-MoE: Spatially Adaptive Cross-Layer Fusion and Density-Routed Experts for Crowd Counting. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2608.15213)]
 - **[DG-Det]** Depth-Guided Video Object Counting in Crowded Scenes. (**ACM MM 2026**) [[Paper](https://arxiv.org/abs/2608.06236)] [[Code](https://github.com/streamer-AP/DG-Net)]
@@ -417,6 +423,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 - **[Pan et al.]** High-Throughput Panicle Counting of Wild Rice Accessions for Germplasm Evaluation: An AI-Driven UAV Phenotyping Framework. (**Smart Agricultural Technology 2026**) [[Paper](https://doi.org/10.1016/j.atech.2026.102528)]
 - **[KBTrack]** KBTrack: cloud-enabled temporal identity inference for accurate counting in ornamental plant inventory management. (**Computers and Electronics in Agriculture 2026**) [[Paper](https://doi.org/10.1016/j.compag.2026.112307)]
 - **[Zhou & Zhang]** Label-Efficient Remote Sensing Object Counting via Cascaded Foundation Models and Global-Local Ranking. (**IEEE GRSL 2026**) [[Paper](https://doi.org/10.1109/LGRS.2026.3726140)]
+- **[MMNet]** MMNet: multi-scale VSSM and masked image reconstruction network for robust crowd counting. (**Multimedia Systems 2026**) [[Paper](https://doi.org/10.1007/s00530-026-02663-6)]
 - **[MSPF]** Multi-scale pyramid fusion with overlap density attention module for crowd counting. (**Neural Networks 2026**) [[Paper](https://doi.org/10.1016/j.neunet.2026.108983)] [[Code](https://github.com/Avinash-Rohra/MSPF)]
 - **[Clarke et al.]** Odontocete strandings from space: Accurately counting individuals with very high-resolution optical and synthetic aperture radar satellite imagery. (**Ecological Informatics 2026**) [[Paper](https://doi.org/10.1016/j.ecoinf.2026.103924)]
 - **[Chen et al. (2026)]** One-Shot Crowd Counting With Density Guidance For Scene Adaptation. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2602.07955)]
@@ -426,6 +433,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 - **[SAGRD]** Scale-Aware Gated Routing Distillation for Lightweight Remote Sensing Object Counting. (**Remote Sensing 2026**) [[Paper](https://doi.org/10.3390/rs18172939)]
 - **[SCRSNet]** SCRSNet: An Efficient Crowd Counting via Lightweight Spatial-Channel Reconstructive and Scale-Aware Network. (**Expert Systems 2026**) [[Paper](https://doi.org/10.1111/exsy.70409)]
 - **[GROC]** See What We Cannot See: A Geo-Guided Reasoning Benchmark for Object Counting under Adverse Earth Observation Conditions. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_See_What_We_Cannot_See_A_Geo-guided_Reasoning_Benchmark_for_CVPR_2026_paper.html)]
+- **[Figueiredo et al.]** Vision-based panel counting on pallets in continuous industrial operation. (**Machine Vision and Applications 2026**) [[Paper](https://doi.org/10.1007/s00138-026-01896-9)]
 
 #### 2025
 
