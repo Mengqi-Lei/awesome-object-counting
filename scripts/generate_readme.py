@@ -11,6 +11,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 
+PAPER_FIELDS = [
+    "abbreviation", "title", "venue", "year", "categories", "paper_url",
+    "code_url", "highlight", "status", "verified_on", "notes",
+]
+
 CATEGORY_ORDER = [
     "Open-vocabulary Counting",
     "Exemplar-based Counting",
@@ -49,7 +54,13 @@ PROTOCOL_LABELS = {
 
 def read_csv(name: str) -> list[dict[str, str]]:
     with (DATA / name).open(newline="", encoding="utf-8") as handle:
-        return list(csv.DictReader(handle))
+        reader = csv.DictReader(handle)
+        if name == "papers.csv" and reader.fieldnames != PAPER_FIELDS:
+            raise ValueError(f"{name}: missing or invalid header; expected {PAPER_FIELDS}")
+        rows = list(reader)
+        if any(None in row or None in row.values() for row in rows):
+            raise ValueError(f"{name}: row length does not match the header")
+        return rows
 
 
 def clean(value: str) -> str:
