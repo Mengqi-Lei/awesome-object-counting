@@ -7,7 +7,7 @@ A curated collection of research on visual object counting, including papers, da
 
 > **Collection policy.** For work published in 2022 or earlier, we retain seminal and broadly recognized papers. From 2023 onward, we aim for high recall across major conferences, reputable journals, and verifiable arXiv papers, provided that object counting is a central contribution.
 
-Metadata last verified: **2026-10-05**.
+Metadata last verified: **2026-10-12**.
 
 ## Contents
 
@@ -199,7 +199,11 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Exemplar-based Counting
 
-*41 papers.*
+*42 papers.*
+
+#### 2027
+
+- **[GIPACount]** GIPACount: Global interaction and prototype-guided aggregation network for exemplar-conditioned few-shot object counting. (**Neural Networks 2027**) [[Paper](https://doi.org/10.1016/j.neunet.2026.109719)]
 
 #### 2026
 
@@ -308,11 +312,12 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Class-agnostic Counting
 
-*75 papers.*
+*77 papers.*
 
 #### 2027
 
 - **[CountLEG]** CountLEG: Compositional referring expression counting framework via Latent Expression Guidance. (**Pattern Recognition 2027**) [[Paper](https://doi.org/10.1016/j.patcog.2026.114691)] [[Code](https://github.com/psbetter/CountLEG)]
+- **[GIPACount]** GIPACount: Global interaction and prototype-guided aggregation network for exemplar-conditioned few-shot object counting. (**Neural Networks 2027**) [[Paper](https://doi.org/10.1016/j.neunet.2026.109719)]
 
 #### 2026
 
@@ -341,6 +346,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 - **[UpCount]** Spatially-Aware Class-Agnostic Object Counting. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2607.16826)] [[Code](https://github.com/r28112072-rgb/upcount)]
 - **[Dual-TTT]** Test-Time Training for Robust Text-Guided Open-Vocabulary Object Counting. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2606.17601)]
 - **[MixCount]** The MixCount Dataset: Bridging the Data Gap for Open-Vocabulary Object Counting. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2605.18063)] [[Code](https://corentindumery.github.io/projects/mixcount.html)]
+- **[UniCounting]** UniCounting: Instance-Aware Proposal Consolidation for Image-Query-Free Multi-Category Counting. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2610.08379)]
 
 #### 2025
 
@@ -411,7 +417,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Class-specific Counting
 
-*69 papers.*
+*70 papers.*
 
 #### 2027
 
@@ -437,6 +443,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 - **[DG-Det]** Depth-Guided Video Object Counting in Crowded Scenes. (**ACM MM 2026**) [[Paper](https://arxiv.org/abs/2608.06236)] [[Code](https://github.com/streamer-AP/DG-Net)]
 - **[StructGuide-YOLO]** Edge-guided structural conditioning for Gong-Che symbol localization and page-level counting in aged documents. (**Measurement Science and Technology 2026**) [[Paper](https://doi.org/10.1088/1361-6501/ae9f7c)]
 - **[XMask]** Exclusivity-Guided Mask Learning for Semi-supervised Crowd Instance Segmentation and Counting. (**ECCV 2026**) [[Paper](https://doi.org/10.1007/978-3-032-37225-3_37)] [[Code](https://github.com/JoyceeH0127/ECCV2026XMask)]
+- **[FFM-Net]** Frequency-aware fusion framework for RGB-t crowd counting. (**Neurocomputing 2026**) [[Paper](https://doi.org/10.1016/j.neucom.2026.135305)]
 - **[Pan et al.]** High-Throughput Panicle Counting of Wild Rice Accessions for Germplasm Evaluation: An AI-Driven UAV Phenotyping Framework. (**Smart Agricultural Technology 2026**) [[Paper](https://doi.org/10.1016/j.atech.2026.102528)]
 - **[KBTrack]** KBTrack: cloud-enabled temporal identity inference for accurate counting in ornamental plant inventory management. (**Computers and Electronics in Agriculture 2026**) [[Paper](https://doi.org/10.1016/j.compag.2026.112307)]
 - **[Zhou & Zhang]** Label-Efficient Remote Sensing Object Counting via Cascaded Foundation Models and Global-Local Ranking. (**IEEE GRSL 2026**) [[Paper](https://doi.org/10.1109/LGRS.2026.3726140)]
