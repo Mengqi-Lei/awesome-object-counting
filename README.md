@@ -794,6 +794,7 @@ This is the official static **CLOC-v1.1 corrected-test** snapshot. It must not b
 
 ### Curated Lists and Engineering Tutorials
 
+- [Count Objects Using CounTR Model](https://www.mathworks.com/help/visual-inspection/ug/count-objects-using-countr-model.html) — MathWorks, 2025.
 - [Object Counting using Ultralytics YOLO](https://docs.ultralytics.com/guides/object-counting/) — Ultralytics, 2023.
 - [Awesome Crowd Counting](https://github.com/gjy3035/Awesome-Crowd-Counting) — Community / gjy3035, 2019.
 
