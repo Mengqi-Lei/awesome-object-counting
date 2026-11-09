@@ -7,7 +7,7 @@ A curated collection of research on visual object counting, including papers, da
 
 > **Collection policy.** For work published in 2022 or earlier, we retain seminal and broadly recognized papers. From 2023 onward, we aim for high recall across major conferences, reputable journals, and verifiable arXiv papers, provided that object counting is a central contribution.
 
-Metadata last verified: **2026-11-02**.
+Metadata last verified: **2026-11-09**.
 
 ## Contents
 
@@ -203,7 +203,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Exemplar-based Counting
 
-*43 papers.*
+*45 papers.*
 
 #### 2027
 
@@ -228,6 +228,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 - **[PairTally]** Can Current AI Models Count What We Mean, Not What They See? A Benchmark and Systematic Evaluation. (**arXiv 2025**) [[Paper](https://arxiv.org/abs/2509.13939)]
 - **[CountOCC]** Counting Through Occlusion: Framework for Open World Amodal Counting. (**arXiv 2025**) [[Paper](https://arxiv.org/abs/2511.12702)]
 - **[CACAL]** Counting with Ease: Class-Agnostic Counting via One-Shot Detection across Diverse Domains. (**Neural Networks 2025**) [[Paper](https://www.sciencedirect.com/science/article/pii/S0893608025008421)] [[Code](https://github.com/imMid-Star/CACAL)]
+- **[SAViT]** Few-Shot Counting with Multi-Scale Vision Transformers and Attention Mechanisms. (**International Journal of Pattern Recognition and Artificial Intelligence 2025**) [[Paper](https://doi.org/10.1142/S0218001425560014)]
 - **[FocalCount]** FocalCount: Towards Class-Count Imbalance in Class-Agnostic Counting. (**arXiv 2025**) [[Paper](https://arxiv.org/abs/2502.10677)]
 - **[PLS-Count]** Learning to Count from Pseudo-Labeled Segmentation. (**WACV 2025**) [[Paper](https://openaccess.thecvf.com/content/WACV2025/papers/Xu_Learning_to_Count_from_Pseudo-Labeled_Segmentation_WACV_2025_paper.pdf)]
 - **[PrACo]** Mind the Prompt: A Novel Benchmark for Prompt-Based Class-Agnostic Counting. (**WACV 2025**) [[Paper](https://openaccess.thecvf.com/content/WACV2025/html/Ciampi_Mind_the_Prompt_A_Novel_Benchmark_for_Prompt-Based_Class-Agnostic_Counting_WACV_2025_paper.html)] [[Code](https://github.com/ciampluca/PrACo)]
@@ -240,6 +241,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 - **[UPC]** A Fixed-Point Approach to Unified Prompt-Based Counting. (**AAAI 2024**) [[Paper](https://arxiv.org/abs/2403.10236)]
 - **[GeCo]** A Novel Unified Architecture for Low-Shot Counting by Detection and Segmentation. (**NeurIPS 2024**) [[Paper](https://arxiv.org/abs/2409.18686)] [[Code](https://github.com/jerpelhan/GeCo)]
 - **[MGCAC]** A Recipe for CAC: Mosaic-Based Generalized Loss for Improved Class-Agnostic Counting. (**ACCV 2024**) [[Paper](https://openaccess.thecvf.com/content/ACCV2024/html/Chou_A_Recipe_for_CAC_Mosaic-based_Generalized_Loss_for_Improved_Class-Agnostic_ACCV_2024_paper.html)] [[Code](https://github.com/littlepenguin89106/MGCAC)]
+- **[CACL]** Class-agnostic counting and localization with feature augmentation and scale-adaptive aggregation. (**Knowledge-Based Systems 2024**) [[Paper](https://doi.org/10.1016/j.knosys.2024.112104)]
 - **[CountDiff]** Class-Agnostic Object Counting with Text-to-Image Diffusion Model. (**ECCV 2024**) [[Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8663_ECCV_2024_paper.php)]
 - **[CountGD]** CountGD: Multi-Modal Open-World Counting. (**NeurIPS 2024**) [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/57c56985d9afe89bf78a8264c91071aa-Abstract-Conference.html)] [[Code](https://github.com/niki-amini-naieni/CountGD)]
 - **[DAVE]** DAVE: A Detect-and-Verify Paradigm for Low-Shot Counting. (**CVPR 2024**) [[Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Pelhan_DAVE_-_A_Detect-and-Verify_Paradigm_for_Low-Shot_Counting_CVPR_2024_paper.html)] [[Code](https://github.com/jerpelhan/DAVE)]
@@ -323,7 +325,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Class-agnostic Counting
 
-*79 papers.*
+*81 papers.*
 
 #### 2027
 
@@ -371,6 +373,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 - **[CountZES]** CountZES: Counting via Zero-Shot Exemplar Selection. (**arXiv 2025**) [[Paper](https://arxiv.org/abs/2512.16415)]
 - **[LGCount]** Enhancing Zero-Shot Object Counting via Text-Guided Local Ranking and Number-Evoked Global Attention. (**ICCV 2025**) [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_Enhancing_Zero-shot_Object_Counting_via_Text-guided_Local_Ranking_and_Number-evoked_ICCV_2025_paper.html)] [[Code](https://github.com/zaqai/LGCount)]
 - **[RichCount]** Expanding Zero-Shot Object Counting with Rich Prompts. (**arXiv 2025**) [[Paper](https://arxiv.org/abs/2505.15398)]
+- **[SAViT]** Few-Shot Counting with Multi-Scale Vision Transformers and Attention Mechanisms. (**International Journal of Pattern Recognition and Artificial Intelligence 2025**) [[Paper](https://doi.org/10.1142/S0218001425560014)]
 - **[FiGO]** FiGO: Fine-Grained Object Counting without Annotations. (**arXiv 2025**) [[Paper](https://arxiv.org/abs/2504.11705)]
 - **[FocalCount]** FocalCount: Towards Class-Count Imbalance in Class-Agnostic Counting. (**arXiv 2025**) [[Paper](https://arxiv.org/abs/2502.10677)]
 - **[PLS-Count]** Learning to Count from Pseudo-Labeled Segmentation. (**WACV 2025**) [[Paper](https://openaccess.thecvf.com/content/WACV2025/papers/Xu_Learning_to_Count_from_Pseudo-Labeled_Segmentation_WACV_2025_paper.pdf)]
@@ -388,6 +391,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 - **[GeCo]** A Novel Unified Architecture for Low-Shot Counting by Detection and Segmentation. (**NeurIPS 2024**) [[Paper](https://arxiv.org/abs/2409.18686)] [[Code](https://github.com/jerpelhan/GeCo)]
 - **[MGCAC]** A Recipe for CAC: Mosaic-Based Generalized Loss for Improved Class-Agnostic Counting. (**ACCV 2024**) [[Paper](https://openaccess.thecvf.com/content/ACCV2024/html/Chou_A_Recipe_for_CAC_Mosaic-based_Generalized_Loss_for_Improved_Class-Agnostic_ACCV_2024_paper.html)] [[Code](https://github.com/littlepenguin89106/MGCAC)]
 - **[ABC123]** ABC Easy as 123: A Blind Counter for Exemplar-Free Multi-Class Class-Agnostic Counting. (**ECCV 2024**) [[Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01761.pdf)]
+- **[CACL]** Class-agnostic counting and localization with feature augmentation and scale-adaptive aggregation. (**Knowledge-Based Systems 2024**) [[Paper](https://doi.org/10.1016/j.knosys.2024.112104)]
 - **[CountDiff]** Class-Agnostic Object Counting with Text-to-Image Diffusion Model. (**ECCV 2024**) [[Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8663_ECCV_2024_paper.php)]
 - **[CountGD]** CountGD: Multi-Modal Open-World Counting. (**NeurIPS 2024**) [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/57c56985d9afe89bf78a8264c91071aa-Abstract-Conference.html)] [[Code](https://github.com/niki-amini-naieni/CountGD)]
 - **[DAVE]** DAVE: A Detect-and-Verify Paradigm for Low-Shot Counting. (**CVPR 2024**) [[Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Pelhan_DAVE_-_A_Detect-and-Verify_Paradigm_for_Low-Shot_Counting_CVPR_2024_paper.html)] [[Code](https://github.com/jerpelhan/DAVE)]
@@ -430,7 +434,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Class-specific Counting
 
-*82 papers.*
+*83 papers.*
 
 #### 2027
 
@@ -459,13 +463,14 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 - **[DAQ-YOLO]** DAQ-YOLO: A High Precision Counting Model for Maize Seedlings in Dense Scenes. (**Frontiers in Plant Science 2026**) [[Paper](https://doi.org/10.3389/fpls.2026.1879331)]
 - **[DCA-MoE]** DCA-MoE: Spatially Adaptive Cross-Layer Fusion and Density-Routed Experts for Crowd Counting. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2608.15213)]
 - **[DAANet]** Density-Assisted Adaptive Alignment Network for Video Individual Counting. (**ACM TIST 2026**) [[Paper](https://doi.org/10.1145/3856806)] [[Code](https://github.com/LeoHuang0511/DAANet)]
-- **[DG-Det]** Depth-Guided Video Object Counting in Crowded Scenes. (**ACM MM 2026**) [[Paper](https://arxiv.org/abs/2608.06236)] [[Code](https://github.com/streamer-AP/DG-Net)]
+- **[DG-Det]** Depth-Guided Video Object Counting in Crowded Scenes. (**ACM MM 2026**) [[Paper](https://doi.org/10.1145/3767308.3835482)] [[Code](https://github.com/streamer-AP/DG-Net)]
 - **[StructGuide-YOLO]** Edge-guided structural conditioning for Gong-Che symbol localization and page-level counting in aged documents. (**Measurement Science and Technology 2026**) [[Paper](https://doi.org/10.1088/1361-6501/ae9f7c)]
 - **[XMask]** Exclusivity-Guided Mask Learning for Semi-supervised Crowd Instance Segmentation and Counting. (**ECCV 2026**) [[Paper](https://doi.org/10.1007/978-3-032-37225-3_37)] [[Code](https://github.com/JoyceeH0127/ECCV2026XMask)]
 - **[MGCC-Net]** Fish density estimation for smart marine aquaculture using a multi-granularity counting consistency network. (**Intelligent Marine Technology and Systems 2026**) [[Paper](https://doi.org/10.1007/s44295-026-00121-7)]
 - **[FFM-Net]** Frequency-aware fusion framework for RGB-t crowd counting. (**Neurocomputing 2026**) [[Paper](https://doi.org/10.1016/j.neucom.2026.135305)]
 - **[GtNR]** Getting the Numbers Right—Modelling Multi-Class Object Counting in Dense and Varied Scenes. (**IJCNN 2026**) [[Paper](https://doi.org/10.1109/IJCNN69854.2026.11729521)] [[Code](https://github.com/LCAS/gnr_mcdest)]
 - **[Pan et al.]** High-Throughput Panicle Counting of Wild Rice Accessions for Germplasm Evaluation: An AI-Driven UAV Phenotyping Framework. (**Smart Agricultural Technology 2026**) [[Paper](https://doi.org/10.1016/j.atech.2026.102528)]
+- **[Hyper-Counter]** Hyper-Counter: Cross-Modal Hypergraph Fusion for RGB-T Crowd Counting. (**IEEE TPAMI 2026**) [[Paper](https://doi.org/10.1109/TPAMI.2026.3751067)] [[Code](https://github.com/Mengqi-Lei/HyperCounter)]
 - **[KBTrack]** KBTrack: cloud-enabled temporal identity inference for accurate counting in ornamental plant inventory management. (**Computers and Electronics in Agriculture 2026**) [[Paper](https://doi.org/10.1016/j.compag.2026.112307)]
 - **[Zhou & Zhang]** Label-Efficient Remote Sensing Object Counting via Cascaded Foundation Models and Global-Local Ranking. (**IEEE GRSL 2026**) [[Paper](https://doi.org/10.1109/LGRS.2026.3726140)]
 - **[SAH-matcher]** Local Spacing-Aware Hungarian Matching for Stable Point-Supervised Crowd Counting. (**ECCV 2026**) [[Paper](https://doi.org/10.1007/978-3-032-37138-6_7)] [[Code](https://github.com/kaijiang77/SAHCC)]
@@ -572,7 +577,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 - **[CountVideoBench]** CountVideoBench: A Benchmark to Evaluate Prediction Biases on the Object Counting task by Video-Language Models. (**BMVC 2026**) [[Paper](https://arxiv.org/abs/2610.28356)] [[Code](https://github.com/CountVideoBench/CountVideoBench)]
 - **[OMAN++]** Crowded Video Individual Counting Informed by Social Grouping and Spatial-Temporal Displacement Priors. (**IEEE TIP 2026**) [[Paper](https://doi.org/10.1109/TIP.2026.3737046)] [[Code](https://github.com/tiny-smart/OMAN/tree/main/OMAN%2B%2B)]
 - **[DAANet]** Density-Assisted Adaptive Alignment Network for Video Individual Counting. (**ACM TIST 2026**) [[Paper](https://doi.org/10.1145/3856806)] [[Code](https://github.com/LeoHuang0511/DAANet)]
-- **[DG-Det]** Depth-Guided Video Object Counting in Crowded Scenes. (**ACM MM 2026**) [[Paper](https://arxiv.org/abs/2608.06236)] [[Code](https://github.com/streamer-AP/DG-Net)]
+- **[DG-Det]** Depth-Guided Video Object Counting in Crowded Scenes. (**ACM MM 2026**) [[Paper](https://doi.org/10.1145/3767308.3835482)] [[Code](https://github.com/streamer-AP/DG-Net)]
 - **[EC-Bench]** EC-Bench: Enumeration and Counting Benchmark for Ultra-Long Videos. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2603.29943)]
 - **[KBTrack]** KBTrack: cloud-enabled temporal identity inference for accurate counting in ornamental plant inventory management. (**Computers and Electronics in Agriculture 2026**) [[Paper](https://doi.org/10.1016/j.compag.2026.112307)]
 - **[CountVid]** Open-World Object Counting in Videos. (**AAAI 2026**) [[Paper](https://arxiv.org/abs/2506.15368)] [[Code](https://github.com/niki-amini-naieni/CountVid)]
