@@ -7,7 +7,7 @@ A curated collection of research on visual object counting, including papers, da
 
 > **Collection policy.** For work published in 2022 or earlier, we retain seminal and broadly recognized papers. From 2023 onward, we aim for high recall across major conferences, reputable journals, and verifiable arXiv papers, provided that object counting is a central contribution.
 
-Metadata last verified: **2026-11-09**.
+Metadata last verified: **2026-11-11**.
 
 ## Contents
 
@@ -47,6 +47,7 @@ The taxonomy is intentionally multi-label: a paper can appear in more than one s
 
 - **[Count Anything]** Count Anything. (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2605.30846)] [[Code](https://github.com/Mengqi-Lei/count-anything)]
 - **[CountGD++]** CountGD++: Generalized Prompting for Open-World Counting. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Amini-Naieni_CountGD_Generalized_Prompting_for_Open-World_Counting_CVPR_2026_paper.html)] [[Code](https://github.com/niki-amini-naieni/CountGDPlusPlus)]
+- **[Hyper-Counter]** Hyper-Counter: Cross-Modal Hypergraph Fusion for RGB-T Crowd Counting. (**IEEE TPAMI 2026**) [[Paper](https://doi.org/10.1109/TPAMI.2026.3751067)] [[Code](https://github.com/Mengqi-Lei/HyperCounter)]
 - **[CountVid]** Open-World Object Counting in Videos. (**AAAI 2026**) [[Paper](https://arxiv.org/abs/2506.15368)] [[Code](https://github.com/niki-amini-naieni/CountVid)]
 - **[UNICBench]** UNICBench: UNIfied Counting Benchmark for MLLM. (**CVPR 2026**) [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Rong_UNICBench_UNIfied_Counting_Benchmark_for_MLLM_CVPR_2026_paper.html)] [[Code](https://github.com/rongcg5620/UNICBench)]
 - **[T2ICount]** T2ICount: Enhancing Cross-Modal Understanding for Zero-Shot Counting. (**CVPR 2025**) [[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Qian_T2ICount_Enhancing_Cross-modal_Understanding_for_Zero-Shot_Counting_CVPR_2025_paper.html)] [[Code](https://github.com/cha15yq/T2ICount)]
