@@ -7,7 +7,7 @@ A curated collection of research on visual object counting, including papers, da
 
 > **Collection policy.** For work published in 2022 or earlier, we retain seminal and broadly recognized papers. From 2023 onward, we aim for high recall across major conferences, reputable journals, and verifiable arXiv papers, provided that object counting is a central contribution.
 
-Metadata last verified: **2026-11-16**.
+Metadata last verified: **2026-11-23**.
 
 ## Contents
 
@@ -278,7 +278,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### MLLM-based Counting
 
-*34 papers.*
+*35 papers.*
 
 #### 2027
 
@@ -315,6 +315,7 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 - **[PairTally]** Can Current AI Models Count What We Mean, Not What They See? A Benchmark and Systematic Evaluation. (**arXiv 2025**) [[Paper](https://arxiv.org/abs/2509.13939)]
 - **[CAPTURe]** CAPTURe: Evaluating Spatial Reasoning in Vision Language Models via Occluded Object Counting. (**ICCV 2025**) [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Pothiraj_CAPTURE_Evaluating_Spatial_Reasoning_in_Vision_Language_Models_via_Occluded_ICCV_2025_paper.html)] [[Code](https://github.com/atinpothiraj/CAPTURe)]
 - **[CountQA]** CountQA: How Well Do MLLMs Count in the Wild? (**arXiv 2025**) [[Paper](https://arxiv.org/abs/2508.06585)]
+- **[ZECC]** Embodied Crowd Counting. (**NeurIPS 2025**) [[Paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/6aa3267e3a0f7c2c718036d08d482a51-Abstract-Conference.html)] [[Code](https://github.com/iLearn-Lab/NeurIPS25-Embodied-Crowd-Counting)]
 - **[T2ICount]** T2ICount: Enhancing Cross-Modal Understanding for Zero-Shot Counting. (**CVPR 2025**) [[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Qian_T2ICount_Enhancing_Cross-modal_Understanding_for_Zero-Shot_Counting_CVPR_2025_paper.html)] [[Code](https://github.com/cha15yq/T2ICount)]
 - **[TrueCount]** TrueCount: Improving Open-World Object Counting with Visual-Language Models and Dynamic Multi-Modal Inputs. (**ACM MM 2025**) [[Paper](https://doi.org/10.1145/3746027.3755426)]
 
@@ -331,11 +332,12 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Class-agnostic Counting
 
-*81 papers.*
+*82 papers.*
 
 #### 2027
 
 - **[CountLEG]** CountLEG: Compositional referring expression counting framework via Latent Expression Guidance. (**Pattern Recognition 2027**) [[Paper](https://doi.org/10.1016/j.patcog.2026.114691)] [[Code](https://github.com/psbetter/CountLEG)]
+- **[Fruit3DGS]** Fruit3DGS: Fruit-agnostic counting and localization leveraging semantic-guided 3D Gaussian Splatting and contrastive learning. (**Computers and Electronics in Agriculture 2027**) [[Paper](https://doi.org/10.1016/j.compag.2026.112643)] [[Code](https://github.com/SamueleMara/Fruit3DGS)]
 - **[GIPACount]** GIPACount: Global interaction and prototype-guided aggregation network for exemplar-conditioned few-shot object counting. (**Neural Networks 2027**) [[Paper](https://doi.org/10.1016/j.neunet.2026.109719)]
 
 #### 2026
@@ -440,12 +442,13 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 
 ### Class-specific Counting
 
-*87 papers.*
+*90 papers.*
 
 #### 2027
 
 - **[ABACUS]** ABACUS: A Benchmark for Image Editing Models to Assess Object Category and Counting Under Scene Conservation. (**WACV 2027**) [[Paper](https://arxiv.org/abs/2610.28316)]
 - **[CrowdCC]** CrowdCC: Jointly Benchmarking Corruption Robustness and Deployment Quantization in Crowd Counting. (**WACV 2027**) [[Paper](https://arxiv.org/abs/2610.36340)] [[Code](https://github.com/Tulane-Computer-Architecture-Systems/CrowdCC-Release)]
+- **[Fruit3DGS]** Fruit3DGS: Fruit-agnostic counting and localization leveraging semantic-guided 3D Gaussian Splatting and contrastive learning. (**Computers and Electronics in Agriculture 2027**) [[Paper](https://doi.org/10.1016/j.compag.2026.112643)] [[Code](https://github.com/SamueleMara/Fruit3DGS)]
 - **[PickGlass-TPI / PG-Lattice]** Image Quality and the Reliability of Fabric-Density Measurement: Counting Threads from Smartphone Photos Through a Pick Glass. (**WVAQ Workshop at WACV 2027**) [[Paper](https://arxiv.org/abs/2611.13200)] [[Code](https://github.com/anoubhav/pickglass-tpi)]
 - **[PRoFENCH]** PRoFENCH: A systematic study of multimodal fusion and generalization in WiFi–Vision wireless sensing for people counting. (**Ad Hoc Networks 2027**) [[Paper](https://doi.org/10.1016/j.adhoc.2026.104388)]
 - **[Shang et al.]** Untangling context: A Gaussian Splatting-mediated Bayesian framework for crowd counting. (**Pattern Recognition 2027**) [[Paper](https://doi.org/10.1016/j.patcog.2026.114725)]
@@ -500,11 +503,13 @@ Candidate rows are deliberately marked below and should not be treated as fully 
 - **[Figueiredo et al.]** Vision-based panel counting on pallets in continuous industrial operation. (**Machine Vision and Applications 2026**) [[Paper](https://doi.org/10.1007/s00138-026-01896-9)]
 - **[WeSTA-TST]** WeSTA-TST weakly supervised temporal attention guided tiny-Swin-transformer for video-based crowd counting. (**Signal, Image and Video Processing 2026**) [[Paper](https://doi.org/10.1007/s11760-026-05825-1)]
 - **[Jeong et al.]** What Factors Matter for Collection-Level Counting with Human-AI Collaboration? (**arXiv 2026**) [[Paper](https://arxiv.org/abs/2611.14380)]
+- **[ZIP]** ZIP: Scalable Crowd Counting via Zero-Inflated Poisson Modeling. (**IEEE TIP 2026**) [[Paper](https://doi.org/10.1109/TIP.2026.3752245)] [[Code](https://github.com/Yiming-M/ZIP)]
 
 #### 2025
 
 - **[U3D-M]** Constructing WiFi-Video-Fused Multi-Modal Synthetic Datasets for Crowd Counting. (**ECAI 2025**) [[Paper](https://doi.org/10.3233/FAIA250880)]
 - **[3DC]** Counting Stacked Objects. (**ICCV 2025**) [[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Dumery_Counting_Stacked_Objects_ICCV_2025_paper.html)] [[Code](https://corentindumery.github.io/projects/stacks.html)]
+- **[ZECC]** Embodied Crowd Counting. (**NeurIPS 2025**) [[Paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/6aa3267e3a0f7c2c718036d08d482a51-Abstract-Conference.html)] [[Code](https://github.com/iLearn-Lab/NeurIPS25-Embodied-Crowd-Counting)]
 - **[Free Lunch]** Free Lunch Enhancements for Multi-Modal Crowd Counting. (**CVPR 2025**) [[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Meng_Free_Lunch_Enhancements_for_Multi-modal_Crowd_Counting_CVPR_2025_paper.html)] [[Code](https://github.com/HenryCilence/Free-Lunch-Multimodal-Counting)]
 - **[LIMM]** Local Information Matters: A Rethink of Crowd Counting. (**ECAI 2025**) [[Paper](https://arxiv.org/abs/2508.16970)]
 - **[P2R]** Point-to-Region Loss for Semi-Supervised Point-Based Crowd Counting. (**CVPR 2025**) [[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Lin_Point-to-Region_Loss_for_Semi-Supervised_Point-Based_Crowd_Counting_CVPR_2025_paper.html)] [[Code](https://github.com/Elin24/P2RLoss)]
